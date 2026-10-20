@@ -1,0 +1,72 @@
+<main class="page">
+  <section class="intro" aria-labelledby="page-title">
+    <div class="intro-content">
+      <span class="eyebrow">SEUS DADOS, COM SIMPLICIDADE</span>
+      <h1 id="page-title">Vamos nos<br />conhecer?</h1>
+      <p>Preencha seus dados para criar seu cadastro. É rápido e fácil.</p>
+      <div class="intro-note">
+        <span class="note-icon" aria-hidden="true">✓</span>
+        <span>Seus dados ficam protegidos</span>
+      </div>
+    </div>
+    <div class="decoration decoration-one" aria-hidden="true"></div>
+    <div class="decoration decoration-two" aria-hidden="true"></div>
+  </section>
+
+  <section class="form-area" aria-labelledby="form-title">
+    <div class="form-card">
+      <div class="form-heading">
+        <span class="step-label">CADASTRO PESSOAL</span>
+        <h2 id="form-title">Suas informações</h2>
+        <p>Todos os campos são obrigatórios.</p>
+      </div>
+
+      <form>
+        <div class="field">
+          <label for="name">Nome completo</label>
+          <input
+            id="name"
+            name="name"
+            type="text"
+            placeholder="Ex.: Maria da Silva"
+            autocomplete="name"
+            required
+          />
+        </div>
+
+        <div class="field">
+          <label for="age">Idade</label>
+          <input
+            id="age"
+            name="age"
+            type="number"
+            placeholder="Ex.: 25"
+            min="1"
+            max="120"
+            inputmode="numeric"
+            required
+          />
+        </div>
+
+        <div class="field">
+          <label for="phone">Telefone para contato</label>
+          <input
+            id="phone"
+            name="phone"
+            type="tel"
+            placeholder="(00) 00000-0000"
+            autocomplete="tel"
+            inputmode="tel"
+            required
+          />
+        </div>
+
+        <button type="submit">Continuar <span aria-hidden="true">→</span></button>
+      </form>
+
+      <p class="privacy-note">
+        Ao continuar, você confirma que os dados informados estão corretos.
+      </p>
+    </div>
+  </section>
+</main>

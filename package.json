@@ -1,0 +1,20 @@
+{
+  "name": "angular_teste",
+  "version": "1.0.0",
+  "description": "angular",
+  "homepage": "https://github.com/nati-almeida/angular_teste#readme",
+  "bugs": {
+    "url": "https://github.com/nati-almeida/angular_teste/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nati-almeida/angular_teste.git"
+  },
+  "license": "ISC",
+  "author": "natalia",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
